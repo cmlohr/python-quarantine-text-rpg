@@ -101,164 +101,164 @@ solved_places = {'a1': False, 'a2': False, 'a3': False, 'a4': False,
 ######## FILL OUT MAP!!! ######
 zonemap = {
 	'a1': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Spooky Woods',
+	DESCRIPTION: 'These woods are spooky, no one has been here in a while.',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: '',
+	DOWN: 'b1',
+	LEFT: '',
+	RIGHT: 'a2',
 	},
 	'a2': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Sparce Woods',
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: '',
+	DOWN: 'b2',
+	LEFT: 'a1',
+	RIGHT: 'a3',
 	},
 	'a3': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Clearing',
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: '',
+	DOWN: 'b3',
+	LEFT: 'a2',
+	RIGHT: 'a4',
 	},
 	'a4': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Hobo Camp',
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: '',
+	DOWN: 'b4',
+	LEFT: 'a3',
+	RIGHT: '',
 	},
 	'b1': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Blue House',
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: 'a1',
+	DOWN: 'c1',
+	LEFT: '',
+	RIGHT: 'b2',
 	},
 	'b2': {
-	ZONENAME = 'Home',
-	DESCRIPTION = 'This is your home!'
-	EXAMINATION = 'Your home looks the same - nothing has changed'
-	SOLVED = False
-	UP = 'a2',
-	DOWN = 'c2',
-	LEFT = 'b1',
-	RIGHT = 'b3',
+	ZONENAME: 'My House',
+	DESCRIPTION: 'This is your home!',
+	EXAMINATION: 'Your home looks pretty shabby - someone should cut the grass.',
+	SOLVED: False,
+	UP: 'a2',
+	DOWN: 'c2',
+	LEFT: 'b1',
+	RIGHT: 'b3',
 	},
 	'b3': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Red House',
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: 'a1',
+	DOWN: 'c1',
+	LEFT: '',
+	RIGHT: 'b2',
 	},
 	'b4': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Grey House',
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: 'a4',
+	DOWN: 'c4',
+	LEFT: 'b3',
+	RIGHT: '',
 	},
 	'c1': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Armistice Apartments',
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: 'b1',
+	DOWN: 'd1',
+	LEFT: '',
+	RIGHT: 'c2',
 	},
 	'c2': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Lava Lamps'
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: 'b2',
+	DOWN: 'd2',
+	LEFT: 'c1',
+	RIGHT: 'c3',
 	},
 	'c3': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Shiny Shoes'
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: 'a1',
+	DOWN: 'c1',
+	LEFT: '',
+	RIGHT: 'b2',
 	},
 	'c4': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Library',
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: 'b4',
+	DOWN: 'd4',
+	LEFT: 'c3',
+	RIGHT: '',
 	},
 	'd1': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'High School',
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: 'c1',
+	DOWN: '',
+	LEFT: '',
+	RIGHT: 'd2',
 	},
 	'd2': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'City Park',
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: 'c2',
+	DOWN: '',
+	LEFT: 'd1',
+	RIGHT: 'd3',
 	},
 	'd3': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Spuds',
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: 'c3',
+	DOWN: '',
+	LEFT: 'd2',
+	RIGHT: 'd4',
 	},
 	'd4': {
-	ZONENAME = ''
-	DESCRIPTION = 'description'
-	EXAMINATION = 'examine'
-	SOLVED = False
-	UP = 'up','north'
-	DOWN = 'down', 'south'
-	LEFT = 'left', 'west'
-	RIGHT = 'right', 'east'
+	ZONENAME: 'Hammers-N-Stuff',
+	DESCRIPTION: 'description',
+	EXAMINATION: 'examine',
+	SOLVED: False,
+	UP: 'c4',
+	DOWN: '',
+	LEFT: 'd3',
+	RIGHT: '',
 	},
 }
 
